@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		04585AD1263C022B007FE08C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AD0263C022B007FE08C /* AppDelegate.swift */; };
 		04585AD3263C022B007FE08C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AD2263C022B007FE08C /* SceneDelegate.swift */; };
-		04585AD5263C022B007FE08C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AD4263C022B007FE08C /* ViewController.swift */; };
 		04585AD8263C022B007FE08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04585AD6263C022B007FE08C /* Main.storyboard */; };
 		04585ADA263C0231007FE08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04585AD9263C0231007FE08C /* Assets.xcassets */; };
 		04585ADD263C0231007FE08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04585ADB263C0231007FE08C /* LaunchScreen.storyboard */; };
+		04585AE7263C07FB007FE08C /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AE6263C07FB007FE08C /* UsersViewController.swift */; };
+		04585AEA263C0806007FE08C /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AE9263C0806007FE08C /* MoreViewController.swift */; };
+		04585AED263C081B007FE08C /* UsersTBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AEC263C081B007FE08C /* UsersTBCell.swift */; };
+		04585AF0263C0831007FE08C /* MoreTBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AEF263C0831007FE08C /* MoreTBCell.swift */; };
+		04585AF3263C0998007FE08C /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AF2263C0998007FE08C /* UsersModel.swift */; };
+		04585AF6263C0A55007FE08C /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AF5263C0A55007FE08C /* NetworkRequest.swift */; };
+		04585AF9263C0DEB007FE08C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AF8263C0DEB007FE08C /* Extensions.swift */; };
+		04585AFC263C12F4007FE08C /* MoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585AFB263C12F4007FE08C /* MoreModel.swift */; };
+		0498A9F9263C2C5F00D81D7F /* SenecaGlobalAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0498A9F7263C2C5F00D81D7F /* SenecaGlobalAssignment.xcdatamodeld */; };
+		0498AA02263C329B00D81D7F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498AA01263C329B00D81D7F /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04585ACD263C022B007FE08C /* SenecaGlobalAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenecaGlobalAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04585AD0263C022B007FE08C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04585AD2263C022B007FE08C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04585AD4263C022B007FE08C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04585AD7263C022B007FE08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04585AD9263C0231007FE08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04585ADC263C0231007FE08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04585ADE263C0231007FE08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04585AE6263C07FB007FE08C /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		04585AE9263C0806007FE08C /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		04585AEC263C081B007FE08C /* UsersTBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTBCell.swift; sourceTree = "<group>"; };
+		04585AEF263C0831007FE08C /* MoreTBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTBCell.swift; sourceTree = "<group>"; };
+		04585AF2263C0998007FE08C /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		04585AF5263C0A55007FE08C /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		04585AF8263C0DEB007FE08C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04585AFB263C12F4007FE08C /* MoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreModel.swift; sourceTree = "<group>"; };
+		0498A9F8263C2C5F00D81D7F /* SenecaGlobalAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SenecaGlobalAssignment.xcdatamodel; sourceTree = "<group>"; };
+		0498AA01263C329B00D81D7F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,54 @@
 			children = (
 				04585AD0263C022B007FE08C /* AppDelegate.swift */,
 				04585AD2263C022B007FE08C /* SceneDelegate.swift */,
-				04585AD4263C022B007FE08C /* ViewController.swift */,
 				04585AD6263C022B007FE08C /* Main.storyboard */,
 				04585AD9263C0231007FE08C /* Assets.xcassets */,
 				04585ADB263C0231007FE08C /* LaunchScreen.storyboard */,
 				04585ADE263C0231007FE08C /* Info.plist */,
+				04585B00263C1334007FE08C /* Controller */,
+				04585AFF263C131B007FE08C /* View */,
+				04585AFE263C130C007FE08C /* Model */,
+				04585B01263C134D007FE08C /* Utilitis */,
 			);
 			path = SenecaGlobalAssignment;
+			sourceTree = "<group>";
+		};
+		04585AFE263C130C007FE08C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04585AF2263C0998007FE08C /* UsersModel.swift */,
+				04585AFB263C12F4007FE08C /* MoreModel.swift */,
+				0498A9F7263C2C5F00D81D7F /* SenecaGlobalAssignment.xcdatamodeld */,
+				0498AA01263C329B00D81D7F /* CoreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04585AFF263C131B007FE08C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04585AEC263C081B007FE08C /* UsersTBCell.swift */,
+				04585AEF263C0831007FE08C /* MoreTBCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04585B00263C1334007FE08C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04585AE6263C07FB007FE08C /* UsersViewController.swift */,
+				04585AE9263C0806007FE08C /* MoreViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04585B01263C134D007FE08C /* Utilitis */ = {
+			isa = PBXGroup;
+			children = (
+				04585AF5263C0A55007FE08C /* NetworkRequest.swift */,
+				04585AF8263C0DEB007FE08C /* Extensions.swift */,
+			);
+			path = Utilitis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +196,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04585AD5263C022B007FE08C /* ViewController.swift in Sources */,
 				04585AD1263C022B007FE08C /* AppDelegate.swift in Sources */,
+				04585AF9263C0DEB007FE08C /* Extensions.swift in Sources */,
+				04585AEA263C0806007FE08C /* MoreViewController.swift in Sources */,
+				04585AF6263C0A55007FE08C /* NetworkRequest.swift in Sources */,
+				04585AE7263C07FB007FE08C /* UsersViewController.swift in Sources */,
 				04585AD3263C022B007FE08C /* SceneDelegate.swift in Sources */,
+				0498AA02263C329B00D81D7F /* CoreDataManager.swift in Sources */,
+				04585AF0263C0831007FE08C /* MoreTBCell.swift in Sources */,
+				04585AED263C081B007FE08C /* UsersTBCell.swift in Sources */,
+				04585AFC263C12F4007FE08C /* MoreModel.swift in Sources */,
+				04585AF3263C0998007FE08C /* UsersModel.swift in Sources */,
+				0498A9F9263C2C5F00D81D7F /* SenecaGlobalAssignment.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +409,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0498A9F7263C2C5F00D81D7F /* SenecaGlobalAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0498A9F8263C2C5F00D81D7F /* SenecaGlobalAssignment.xcdatamodel */,
+			);
+			currentVersion = 0498A9F8263C2C5F00D81D7F /* SenecaGlobalAssignment.xcdatamodel */;
+			path = SenecaGlobalAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04585AC5263C022B007FE08C /* Project object */;
 }

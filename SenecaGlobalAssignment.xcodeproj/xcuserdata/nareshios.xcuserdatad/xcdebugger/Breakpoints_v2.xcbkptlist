@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0C23CF5C-5752-453E-86B0-D67AA610D56A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17642239-3617-4CDE-A669-E07EC31BEE4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SenecaGlobalAssignment/View/UsersTBCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DECD2852-2B0B-4569-BF67-D1695AAA65AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SenecaGlobalAssignment/Controller/MoreViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getCompanyData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DECD2852-2B0B-4569-BF67-D1695AAA65AE - 3a4ecd07f79b32b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SenecaGlobalAssignment.MoreViewController.getCompanyData() -&gt; ()"
+                  moduleName = "SenecaGlobalAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nareshios/Desktop/SenecaGlobalAssignment/SenecaGlobalAssignment/Controller/MoreViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "610">
+               </Location>
+               <Location
+                  uuid = "DECD2852-2B0B-4569-BF67-D1695AAA65AE - b543c5ed31683dbf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;SenecaGlobalAssignment.MoreStructElement&gt;, SenecaGlobalAssignment.NetworkError&gt;) -&gt; () in SenecaGlobalAssignment.MoreViewController.getCompanyData() -&gt; ()"
+                  moduleName = "SenecaGlobalAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nareshios/Desktop/SenecaGlobalAssignment/SenecaGlobalAssignment/Controller/MoreViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "218">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46648629-8ECF-4224-B692-9A04F14EC980"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SenecaGlobalAssignment/Utilitis/NetworkRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "makeRequest(type:urlRequest:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "46648629-8ECF-4224-B692-9A04F14EC980 - d681f9f1a49016fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SenecaGlobalAssignment.NetworkRequest.makeRequest&lt;A where A: Swift.Decodable&gt;(type: A.Type, urlRequest: Foundation.URLRequest, completion: (Swift.Result&lt;A, SenecaGlobalAssignment.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SenecaGlobalAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nareshios/Desktop/SenecaGlobalAssignment/SenecaGlobalAssignment/Utilitis/NetworkRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "199">
+               </Location>
+               <Location
+                  uuid = "46648629-8ECF-4224-B692-9A04F14EC980 - 62f02fbdad21fa59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static SenecaGlobalAssignment.NetworkRequest.makeRequest&lt;A where A: Swift.Decodable&gt;(type: A.Type, urlRequest: Foundation.URLRequest, completion: (Swift.Result&lt;A, SenecaGlobalAssignment.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SenecaGlobalAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nareshios/Desktop/SenecaGlobalAssignment/SenecaGlobalAssignment/Utilitis/NetworkRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C57C59AB-0AD6-48FF-8641-E185D9B90F60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SenecaGlobalAssignment/Utilitis/NetworkRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "makeRequest(type:isResponseArray:urlRequest:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13AC618B-9572-44F2-9ED0-713DB8CC559F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SenecaGlobalAssignment/Utilitis/NetworkRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "makeRequest(type:urlRequest:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5CC0B674-9463-47D0-9088-C863352BBD76"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SenecaGlobalAssignment/Utilitis/NetworkRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "makeRequest(type:urlRequest:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5CC0B674-9463-47D0-9088-C863352BBD76 - d681f9f1a49016fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SenecaGlobalAssignment.NetworkRequest.makeRequest&lt;A where A: Swift.Decodable&gt;(type: A.Type, urlRequest: Foundation.URLRequest, completion: (Swift.Result&lt;A, SenecaGlobalAssignment.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SenecaGlobalAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nareshios/Desktop/SenecaGlobalAssignment/SenecaGlobalAssignment/Utilitis/NetworkRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "199">
+               </Location>
+               <Location
+                  uuid = "5CC0B674-9463-47D0-9088-C863352BBD76 - 62f02fbdad21fa59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static SenecaGlobalAssignment.NetworkRequest.makeRequest&lt;A where A: Swift.Decodable&gt;(type: A.Type, urlRequest: Foundation.URLRequest, completion: (Swift.Result&lt;A, SenecaGlobalAssignment.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SenecaGlobalAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nareshios/Desktop/SenecaGlobalAssignment/SenecaGlobalAssignment/Utilitis/NetworkRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5862B678-6AC6-44E9-B1B6-3CA448B99962"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SenecaGlobalAssignment/Controller/MoreViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getCompanyData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5862B678-6AC6-44E9-B1B6-3CA448B99962 - b543c5ed31683d22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;SenecaGlobalAssignment.MoreStructElement&gt;, SenecaGlobalAssignment.NetworkError&gt;) -&gt; () in SenecaGlobalAssignment.MoreViewController.getCompanyData() -&gt; ()"
+                  moduleName = "SenecaGlobalAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nareshios/Desktop/SenecaGlobalAssignment/SenecaGlobalAssignment/Controller/MoreViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "5862B678-6AC6-44E9-B1B6-3CA448B99962 - b543c5ed31683d22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;SenecaGlobalAssignment.MoreStructElement&gt;, SenecaGlobalAssignment.NetworkError&gt;) -&gt; () in SenecaGlobalAssignment.MoreViewController.getCompanyData() -&gt; ()"
+                  moduleName = "SenecaGlobalAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nareshios/Desktop/SenecaGlobalAssignment/SenecaGlobalAssignment/Controller/MoreViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04682D90-9E04-45F7-ACC4-74A7A80D520B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SenecaGlobalAssignment/Model/CoreDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "getAllData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAC5AE95-4D66-480D-9F99-4AB21DD3DDB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SenecaGlobalAssignment/Model/CoreDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "getAllData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C1ABCA3-6021-497D-A3C6-1FBBD7CB7A81"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SenecaGlobalAssignment/Model/CoreDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "getAllData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
